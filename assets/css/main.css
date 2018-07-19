@@ -2811,14 +2811,13 @@
 	}
 
 	table {
-		margin: 0 0 2rem 0;
+		margin: 0 0 0 0;
 		width: 100%;
 	}
 
 		table tbody tr {
 			border: solid 1px;
-			border-left: 0;
-			border-right: 0;
+			text-align: center;
 		}
 
 		table td {
@@ -2900,6 +2899,9 @@
 
 	table.alt tbody tr td {
 		border-color: #eeeeee;
+	}
+	table.alt .total{
+		max-width: 50%;
 	}
 
 /* Pagination */
