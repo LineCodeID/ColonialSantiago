@@ -128,7 +128,7 @@
 									</tr>
 									<tr>
 										<td><h3>Envio</h3></td>
-										<td> <p>Envio Gratis <br> Caltular Envio</p></td>
+										<td> <p>Envio Gratis <small>(para pedidos mayores de $1,000)</small> <br> Calcular Envio</p></td>
 										
 									</tr>
 									<tr>
@@ -144,66 +144,124 @@
 
 
 				</div>	
+
 				<ul class="actions">
 					<li><a href="#" class="button special">Realizar Pedido</a></li>
 				</ul>
 
 				<h3>Direccion Principal</h3>
+				<form method="post" action="#" class="alt">
+					<div class="row uniform">
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nombre(s)" />
+						</div>
+						<div class="6u$ 12u$(xsmall)">
+							<input type="email" name="demo-email" id="demo-email" value="" placeholder="Apellido(s)" />
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Correo" />
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Telefono" />
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Pais" />
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Dirección Calle y Nuemro"/>
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Colonia"/>
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Ciudad/Población"/>
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Estado/Provincia"/>
+						</div>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Codigo Postal"/>
+						</div>
+					</div>
+				</form>
+				<!--TOTAL -->
+				<h3>Tu Pedido</h3>
+				<div class="table-wrapper">
+					<table class="alt left">
+						<thead>
+							<tr>
+								<th>Producto</th>
+								<th>Total</th>			
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Pulcera Tejida</td>
+								<td>$50.00</td>
+							</tr>
+							<tr>
+								<td>Pulcera Tejida</td>
+								<td>$50.00</td>
+							</tr>
+							<tr>
+								<td>Pulcera Tejida</td>	
+								<td>$50.00</td>
+							</tr>
+							<tr>
+								<td>Sub-Total</td>	
+								<td>$150.00</td>
+							</tr>
+							<tr>
+								<td>Envio</td>
+								<td>Envio Gratis</td>
+							</tr>
+							<tr>
+								<td>Total</td>		
+								<td>$150.00</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			
+				<div class="pago">
+					<h3>Metodo de Pago</h3>
+
 					<form method="post" action="#" class="alt">
 						<div class="row uniform">
-
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nombre(s)" />
-							</div>
-							<div class="6u$ 12u$(xsmall)">
-								<input type="email" name="demo-email" id="demo-email" value="" placeholder="Apellido(s)" />
-							</div>
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Correo" />
-							</div>
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Telefono" />
-							</div>
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Pais" />
-							</div>
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Dirección Calle y Nuemro"/>
-							</div>
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Colonia"/>
-							</div>
-							<div class="6u 12u$(xsmall)">
-									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Ciudad/Población"/>
-							</div>
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Estado/Provincia"/>
-							</div>
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Codigo Postal"/>
-							</div>
-
+								<div class="4u 12u$(small)">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">PayPal</label>
+										<img src="" alt="">
+									</div>
+									<div class="4u$ 12u$(small)">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">Oxxo Pay Payment</label>
+									</div>
+									<div class="12u$">
+											<ul class="actions">
+												<li><input type="submit" value="Realizar Pedido" class="special" /></li>
+												<li><input type="reset" value="Cancelar" /></li>
+											</ul>
+										</div>
 						</div>
-						
-
 					</form>
-				
-			</div>
-			<!--TOTAL -->
+
+				</div>
+			</div><!--main-->
 			
 			<!-- Footer -->
 			<footer id="copy">
-					<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Todos los Derechos Reservados 2018</li><li>Design: <a href="https://linecodeid.com">Line Code ID</a></li></ul>
-					</div>
+			<!-- Copyright -->
+				<div id="copyright">
+					<ul><li>&copy; Todos los Derechos Reservados 2018</li><li>Design: <a href="https://linecodeid.com" target="_blank">Line Code ID</a></li></ul>
+				</div>
 						
-				</footer>		
+			</footer>		
 
 				
 				
 
-		</div>
+		</div><!--Wrapper-->
 		
 
 		<!-- Scripts -->
