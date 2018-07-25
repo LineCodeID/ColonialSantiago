@@ -4189,7 +4189,7 @@
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgb(255, 255, 255);
+		color: rgba(255, 255, 255, .45);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
@@ -4487,9 +4487,9 @@
 
 	#copy{
 		display: block;
-		margin: 10px auto;
+		margin-top: 10px;
 		padding-top: 20px;
 		padding-bottom: 0px;
-		height: 200px;
-		background: rgba(218, 214, 214, 0.5)!important;
+		height: 150px;
+		background: rgba(61, 64, 100, 0.5)!important;
 	}
