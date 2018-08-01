@@ -4496,3 +4496,9 @@
 	.left tr td{
 		text-align: left;
 	}
+	.inactiva{
+		display: none;
+	}
+	.activa{
+		display: block;
+	}
