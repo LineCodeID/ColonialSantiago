@@ -269,7 +269,15 @@
 		'use strict'
 
 		$('.actions li a').click(function () {
+			
 			$('.ocultar').slideUp(1000);
+			$('.inactiva').slideDown(1000);
+		});
+		
+		$('.actions li input').click(function () {
+			
+			$('.inactiva').slideUp(1000);
+			$('.ocultar').slideDown(1000);
 		});
 
 	});
