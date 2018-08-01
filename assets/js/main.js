@@ -266,7 +266,11 @@
 	});
 	//linecodeid 
 	$(function() {
+		'use strict'
 
+		$('.actions li a').click(function () {
+			$('.ocultar').slideUp(1000);
+		});
 
 	});
 
