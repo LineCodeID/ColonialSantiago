@@ -11,6 +11,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/lightbox.css" />
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-loading">
@@ -40,6 +42,7 @@
 
 				<!-- Main -->
 					<div id="main">
+							
 
 					</div>
 
@@ -47,12 +50,14 @@
 					<footer id="footer">
 						<section>
                             <article>
-								<span class="image fit"><img src="images/pic02.jpg" alt="imagen_producto" /></span>
+								<a href="images/galeria/pic02.jpg" data-lightbox="galeria" class="image fit">
+									<img src="images/galeria/pic02.jpg" alt="imagen_producto" />
+								</a>
 								<div class="box alt">
 										<div class="row 50% uniform">
-											<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="imagen_producto" /></span></div>
-											<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="imagen_producto" /></span></div>
-											<div class="4u$"><span class="image fit"><img src="images/pic04.jpg" alt="imagen_producto" /></span></div>
+											<div class="4u"><a href="images/galeria/pic02.jpg" data-lightbox="galeria"class="image fit"><img src="images/galeria/pic02.jpg" alt="imagen_producto" /></a></div>
+											<div class="4u"><a href="images/galeria/pic03.jpg" data-lightbox="galeria"class="image fit"><img src="images/galeria/pic03.jpg" alt="imagen_producto" /></a></div>
+											<div class="4u$"><a href="images/galeria/pic04.jpg" data-lightbox="galeria" class="image fit"><img src="images/galeria/pic04.jpg" alt="imagen_producto" /></a></div>
 										</div>
 									</div>
                             </article>
@@ -110,6 +115,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/lightbox.js"></script>
 
 	</body>
 </html>
